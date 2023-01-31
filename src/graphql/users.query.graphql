@@ -1,0 +1,19 @@
+query GetUsers {
+  users {
+    id
+    name
+    books {
+      name
+      author
+    }
+    games {
+      name
+    }
+    movies {
+      name
+    }
+    shows {
+      name
+    }
+  }
+}
